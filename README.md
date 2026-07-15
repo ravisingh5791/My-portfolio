@@ -4,19 +4,9 @@ A personal portfolio website for Ravi Singh, an aspiring Full Stack Developer. T
 
 ## Website Link
 
-Live website is not published yet.
+[Live Portfolio Website](https://ravisingh5791.github.io/My-portfolio/)
 
-After GitHub Pages is enabled, the website link will look like this:
-
-```text
-https://ravisingh5791.github.io/REPOSITORY-NAME/
-```
-
-For example, if the GitHub repository name is `My-portfolio`, the link will be:
-
-```text
-https://ravisingh5791.github.io/My-portfolio/
-```
+If this link shows `404`, enable GitHub Pages from the repository settings first.
 
 ## About
 
@@ -110,7 +100,11 @@ No build step or package installation is required.
 7. Click `Save`.
 8. Wait a few minutes for GitHub Pages to publish the website.
 
-After publishing, copy the live website URL shown in the GitHub Pages settings and replace the Website Link section above.
+After publishing, the portfolio will open from this link:
+
+```text
+https://ravisingh5791.github.io/My-portfolio/
+```
 
 ## Contact
 
