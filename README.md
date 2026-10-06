@@ -75,11 +75,47 @@ Provides direct links for email, phone, LinkedIn, and GitHub.
 
 ## How to Run Locally
 
-1. Download or clone this project.
-2. Open the project folder.
-3. Open `index.html` in your browser.
+### 1. Clone the Repository
 
-No build step or package installation is required.
+```bash
+git clone https://github.com/ravisingh5791/My-portfolio.git
+cd My-portfolio
+```
+
+### 2. Run / Open the Website
+
+Choose any of the following commands or options:
+
+#### Option A: Direct Open in Browser
+- **Windows (CMD / PowerShell):**
+  ```powershell
+  start index.html
+  ```
+- **macOS (Terminal):**
+  ```bash
+  open index.html
+  ```
+- **Linux (Terminal):**
+  ```bash
+  xdg-open index.html
+  ```
+
+#### Option B: Local HTTP Server (Recommended)
+- **Using Python:**
+  ```bash
+  python -m http.server 8000
+  ```
+  Then open `http://localhost:8000` in your web browser.
+
+- **Using Node.js (`npx`):**
+  ```bash
+  npx serve .
+  ```
+
+#### Option C: VS Code Live Server
+Right-click `index.html` in VS Code and select **"Open with Live Server"**.
+
+*Note: No build step or package installation (`npm install`) is required.*
 
 ## How to Publish on GitHub Pages
 
@@ -96,7 +132,7 @@ No build step or package installation is required.
 6. Under `Build and deployment`, choose:
    - Source: `Deploy from a branch`
    - Branch: `main`
-   - Folder: `/root`
+   - Folder: `/ (root)`
 7. Click `Save`.
 8. Wait a few minutes for GitHub Pages to publish the website.
 
