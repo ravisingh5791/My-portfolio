@@ -75,47 +75,13 @@ Provides direct links for email, phone, LinkedIn, and GitHub.
 
 ## How to Run Locally
 
-### 1. Clone the Repository
+Run this single command in your terminal to start the website:
 
 ```bash
-git clone https://github.com/ravisingh5791/My-portfolio.git
-cd My-portfolio
+npx serve .
 ```
 
-### 2. Run / Open the Website
-
-Choose any of the following commands or options:
-
-#### Option A: Direct Open in Browser
-- **Windows (CMD / PowerShell):**
-  ```powershell
-  start index.html
-  ```
-- **macOS (Terminal):**
-  ```bash
-  open index.html
-  ```
-- **Linux (Terminal):**
-  ```bash
-  xdg-open index.html
-  ```
-
-#### Option B: Local HTTP Server (Recommended)
-- **Using Python:**
-  ```bash
-  python -m http.server 8000
-  ```
-  Then open `http://localhost:8000` in your web browser.
-
-- **Using Node.js (`npx`):**
-  ```bash
-  npx serve .
-  ```
-
-#### Option C: VS Code Live Server
-Right-click `index.html` in VS Code and select **"Open with Live Server"**.
-
-*Note: No build step or package installation (`npm install`) is required.*
+*(Or simply double-click `index.html` to open it in your browser).*
 
 ## How to Publish on GitHub Pages
 
